@@ -1,3 +1,5 @@
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
 .App {
   text-align: center;
 }
@@ -21,7 +23,16 @@
 .App-intro {
   font-size: large;
 }
+.header-name{
+  text-align: center;
+  width: 100%;
+  font-size:30pt;
+  color: maroon;
+}
 
+.input-text{
+  width: 90%;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
